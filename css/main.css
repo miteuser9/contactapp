@@ -1,0 +1,47 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h3{
+    color: maroon;
+}
+#update{
+    display: none;
+}
+table{
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+}
+table td{
+    border-bottom: 1px solid red;
+    padding: 10px;
+}
+table tr:nth-child(even){
+    background-color:lightblue;
+}
+table tr:hover{
+    background-color:gray;
+}
+
+input{
+    width: 150px;
+    border: 1px solid blue;
+    height: 30px;
+    background-color: bisque;
+}
+
+table td button{
+    width: 50px;
+    height: 30px;
+    background-color: mediumseagreen;
+    color: white;
+}
+#add{
+    background-color: darkcyan;
+    color: white;
+}
+#update{
+  background-color: darkcyan;
+    color: white;  
+}
